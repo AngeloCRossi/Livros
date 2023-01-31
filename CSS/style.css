@@ -1,0 +1,32 @@
+.titulo_site { 
+    position: absolute;
+    top: 5%;
+    left: 35.5%;
+    font-size: 85px;
+    color: #F8CBA6;
+    background-color: #ECF9FF;
+    filter: blur(1px);
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.1em ;
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.sub_titulo {
+    text-align: center;
+    font-size: 40px;
+    background-color: #84D2C5;
+}
+
+main h1 {
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.capa {
+    width: 15em;
+    height: 23em;
+}
