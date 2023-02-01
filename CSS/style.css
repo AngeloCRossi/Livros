@@ -1,18 +1,17 @@
-/* .titulo_site { 
+.titulo_site { 
     position: absolute;
-    top: 5%;
-    left: 35.5%;
-    font-size: 85px;
-    color: #F8CBA6;
-    background-color: #ECF9FF;
-    filter: blur(1px);
-    border-radius: 5px 5px 5px 5px;
-    padding: 0.1em ;
-} */
+    top: 5em;
+    left: 2em;
+    font-size: 1em;
+    color: #FFEA20;
+}
+.titulo_site li{
+    margin-top: 2em;
+}
 
 .banner {
     width: 100%;
-
+    /*filter: blur(5px);*/
 }
 
 .sub_titulo {
@@ -20,6 +19,10 @@
     font-size: 40px;
     background-color: #84D2C5;
     border: none;
+}
+
+main {
+    text-align: center;
 }
 
 main h1 {
@@ -35,4 +38,11 @@ main h1 {
 
 .capa:hover {
     transform: scale(1.2);
+}
+
+footer {
+    background-color: #0081C9;
+    color: #FFC93C;
+    font-size: 1em;
+    text-align: center;
 }
