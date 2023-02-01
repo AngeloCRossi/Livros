@@ -19,6 +19,7 @@
     text-align: center;
     font-size: 40px;
     background-color: #84D2C5;
+    border: none;
 }
 
 main h1 {
@@ -29,6 +30,9 @@ main h1 {
 
 .capa {
     width: 15em;
-    height: 23em;
-    
+    height: 23em;   
+}
+
+.capa:hover {
+    transform: scale(1.2);
 }
