@@ -1,4 +1,4 @@
-.titulo_site { 
+/* .titulo_site { 
     position: absolute;
     top: 5%;
     left: 35.5%;
@@ -8,7 +8,7 @@
     filter: blur(1px);
     border-radius: 5px 5px 5px 5px;
     padding: 0.1em ;
-}
+} */
 
 .banner {
     width: 100%;
@@ -24,9 +24,11 @@
 main h1 {
     font-size: 25px;
     background-color: aqua;
+    text-align: center;
 }
 
 .capa {
     width: 15em;
     height: 23em;
+    
 }
