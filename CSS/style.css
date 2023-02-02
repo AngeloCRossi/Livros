@@ -1,28 +1,47 @@
-.titulo_site { 
-    position: absolute;
-    top: 5em;
-    left: 2em;
-    font-size: 1em;
-    color: #FFEA20;
-}
-.titulo_site li{
-    margin-top: 2em;
-}
-
 .banner {
     width: 100%;
-    /*filter: blur(5px);*/
+    filter: blur(5px);
 }
+
 
 .sub_titulo {
     text-align: center;
     font-size: 40px;
-    background-color: #84D2C5;
+    background-color: #A8D1D1;
     border: none;
+    padding: 0.2em;
+}
+
+.titulo_site { 
+    position: absolute;
+    top: 47.6em;
+    left: 2em;
+}
+
+.titulo_site li {
+    display: inline-block;
+    margin-right: 2.5em;
+}
+
+nav a {
+    color: #F1F7B5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F78319;
+    text-decoration: underline;
+}
+
+.titulo_site li{
+    margin-top: 2em;
 }
 
 main {
     text-align: center;
+    background-color: #EAFDFC;
 }
 
 main h1 {
@@ -33,11 +52,24 @@ main h1 {
 
 .capa {
     width: 15em;
-    height: 23em;   
+    height: 23em;
+      
 }
 
 .capa:hover {
     transform: scale(1.2);
+}
+
+.titulo_livro {
+    font-weight: bold;
+    background-color: #AEE2FF;
+    color: #FD8A8A;
+    font-size: 1.5em;
+    padding: 0.2em;
+}
+
+.sinopse {
+    background-color: #EAFDFC;
 }
 
 footer {
