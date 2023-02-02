@@ -3,24 +3,29 @@
     filter: blur(5px);
 }
 
-
 .sub_titulo {
     text-align: center;
     font-size: 40px;
-    background-color: #A8D1D1;
-    border: none;
-    padding: 0.2em;
+    background-color: #93c5c5;
+    
 }
 
 .titulo_site { 
-    position: absolute;
-    top: 47.6em;
-    left: 2em;
+    display: flex;
+    background-color: #A8D1D1;
+    align-items: center;
+    border-bottom: 1px dashed #eef1f3
 }
 
 .titulo_site li {
     display: inline-block;
     margin-right: 2.5em;
+}
+
+.ul_nav {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
 }
 
 nav a {
@@ -35,8 +40,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.titulo_site li{
-    margin-top: 2em;
+.sub_titulo_container {
+    width: 100%;
+    margin: 0 auto;
 }
 
 main {
@@ -52,8 +58,8 @@ main h1 {
 
 .capa {
     width: 15em;
-    height: 23em;
-      
+    height: 23em;  
+    transition: all 0.4s ease-in-out; 
 }
 
 .capa:hover {
@@ -61,6 +67,7 @@ main h1 {
 }
 
 .titulo_livro {
+    text-align: center;
     font-weight: bold;
     background-color: #AEE2FF;
     color: #FD8A8A;
@@ -77,4 +84,15 @@ footer {
     color: #FFC93C;
     font-size: 1em;
     text-align: center;
+    clear: both;
+}
+
+.livro_impar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.livro_par {
+    float: right;
 }
