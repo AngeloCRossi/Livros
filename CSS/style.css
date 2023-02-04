@@ -93,3 +93,20 @@ footer {
     text-align: center;
     clear: both;
 }
+
+.container_footer {
+    display: inline-block;
+    align-items: center;
+}
+
+.logo_contato {
+    margin-left: 1em;
+}
+@media screen and (max-width: 480px) {
+    .livro_impar {
+        display: block;
+    }
+    .logo_contato {
+        transform: scale(0.5);
+    }
+}
